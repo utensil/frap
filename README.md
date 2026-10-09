@@ -9,7 +9,8 @@ formalization in Lean, and executable algorithms.
 ## Theme
 
 The question is how a general theory of Rubik puzzles can explain the concrete
-methods used to solve them. FRAP begins with Rubik's abstract polytopes,
+methods used to solve them. FRAP begins with
+[Rubik's abstract polytopes](https://arxiv.org/abs/2502.13518),
 proceeds to N×N×N cubes, and then studies the 3×3×3 cube, its solution
 methods, and gameplay. Each stage brings additional structure into view and
 gives the mathematics more concrete questions to answer. The connections
@@ -93,7 +94,7 @@ up. The initial questions were practical: how to play, how different solution
 methods work, and how algorithms solve scrambled cubes. Those questions led
 to the group theory behind the puzzles, mathematics for general N×N×N
 cubes, and eventually Giovanni Luca Marchetti's
-[*Rubik's Abstract Polytopes*](https://arxiv.org/abs/2502.13518).
+*Rubik's Abstract Polytopes*.
 
 FRAP reverses that journey. It begins with the general mathematics and works
 through increasingly concrete models back to solving and play, seeking a
