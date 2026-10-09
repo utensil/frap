@@ -4,7 +4,7 @@ No substantive Lean contribution has been selected yet.
 
 | Area | Current disposition |
 | --- | --- |
-| Overall storyline opening | First note contribution: explain the complete general-to-concrete programme. |
+| Introduction | Explain how the general construction leads to questions about cubes, solving, and play. |
 | Detailed constructions and worked facet actions | Subsequent note contributions. Expository synthesis is not a claim of new mathematics. |
 | Abstract-polytope foundation and standard R(P) construction | Existing mathematics. Compare formalization coverage before proposing FRAP code. |
 | A particular abstract action theorem, representation result, or finite example | Possible investigation after the opening. No distinct contribution established. |

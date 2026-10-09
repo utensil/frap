@@ -4,7 +4,7 @@ FRAP studies Rubik-style puzzles on abstract regular polytopes: how incidence
 data determines the objects that move, how facet rotations act on them, and
 what can be said about the resulting permutation groups.
 
-The mathematical storyline moves from general Rubik abstract polytopes to
+The mathematical study moves from general Rubik abstract polytopes to
 N-by-N-by-N cubes, then to the 3-by-3-by-3 cube, solution methods, and gameplay.
 Each concrete refinement supplies richer examples and questions. Group theory
 connects the stages: actions and generators, orbits and invariants, then

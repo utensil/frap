@@ -17,7 +17,7 @@ through the puzzles rather than as a separate prerequisite textbook.
 | Solution methods | Move sequences that solve selected subproblems and organize a complete solve | Conjugation, commutators, subgroup chains, cosets and Cayley-graph paths |
 | Gameplay | Notation, scrambling, replay, solving and visualization | The same group action and move words give interaction its meaning |
 
-The first note contribution introduces this whole storyline to readers:
+The introduction explains the connections between these topics:
 why the starting point is general, what each refinement adds, and how the
 mathematics eventually explains solving and gameplay. Detailed constructions,
 convention comparisons, and worked facet turns follow in later contributions.
