@@ -1,5 +1,10 @@
 # FRAP
 
+> [!WARNING]
+> Highly experimental, early-stage research. Everything here is provisional: expect frequent changes and unfinished proofs.
+
+![FRAP banner: abstract polytopes, a layered cube, and a 3×3×3 cube in a checkerboard pattern](assets/frap-banner.png)
+
 FRAP stands for **Formalizing Rubik's Abstract Polytopes**.
 
 Its goal is to connect the general mathematics of Rubik puzzles with the
@@ -9,7 +14,8 @@ formalization in Lean, and executable algorithms.
 ## Theme
 
 The question is how a general theory of Rubik puzzles can explain the concrete
-methods used to solve them. FRAP begins with Rubik's abstract polytopes,
+methods used to solve them. FRAP begins with
+[Rubik's abstract polytopes](https://arxiv.org/abs/2502.13518),
 proceeds to N×N×N cubes, and then studies the 3×3×3 cube, its solution
 methods, and gameplay. Each stage brings additional structure into view and
 gives the mathematics more concrete questions to answer. The connections
@@ -93,7 +99,7 @@ up. The initial questions were practical: how to play, how different solution
 methods work, and how algorithms solve scrambled cubes. Those questions led
 to the group theory behind the puzzles, mathematics for general N×N×N
 cubes, and eventually Giovanni Luca Marchetti's
-[*Rubik's Abstract Polytopes*](https://arxiv.org/abs/2502.13518).
+*Rubik's Abstract Polytopes*.
 
 FRAP reverses that journey. It begins with the general mathematics and works
 through increasingly concrete models back to solving and play, seeking a
@@ -102,10 +108,10 @@ encountered along the way.
 
 ## Components
 
-- The **FRAP mathematical notes**, a series in
-  [Forest](https://github.com/utensil/forest), will develop the explanations,
-  examples, and arguments connecting general Rubik abstract polytopes to
-  concrete cubes, solution methods, and gameplay.
+- [**Notes on Rubik's abstract polytopes**](https://utensil.github.io/forest/frap-0001/),
+  the FRAP series in Forest, develops the explanations, examples, and arguments
+  connecting general Rubik abstract polytopes to concrete cubes, solution
+  methods, and gameplay.
 - Lean work will connect mathematical models, executable algorithms, and
   proofs of their properties, with discoveries feeding back into the notes.
 - Solving and gameplay bring the mathematics into use through human formulas,
