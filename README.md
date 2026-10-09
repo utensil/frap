@@ -8,36 +8,54 @@ formalization in Lean, and executable algorithms.
 
 ## Theme
 
-The question is how much the general theory can reveal about the puzzles we
-play. Starting with Rubik's abstract polytopes, FRAP proceeds to N-by-N-by-N
-cubes, then the 3-by-3-by-3 cube, its solution methods, and gameplay. Each
-refinement introduces richer structures, examples, and questions, eventually
-bringing the abstract mathematics back to familiar turns and move sequences.
+The question is how a general theory of Rubik puzzles can explain the concrete
+methods used to solve them. FRAP begins with Rubik's abstract polytopes,
+proceeds to N-by-N-by-N cubes, and then studies the 3-by-3-by-3 cube, its
+solution methods, and gameplay. Each refinement brings additional structure
+into view and gives the mathematics more concrete questions to answer.
 
-Group theory connects these topics, while the questions lead into broader
-mathematics: the combinatorics of configurations, geometry and symmetry,
-invariants and reachability, and the search for efficient solutions. The aim
-is to understand how these ideas explain one another through the puzzles.
+Abstract polytopes let us study incidence, symmetry, and moves across different
+shapes. Layered cubes introduce distinctions between kinds of pieces, their
+orientations, and the constraints preserved by turns. The 3-by-3-by-3 cube
+provides a rich setting for working out those ideas in detail and connecting
+them with recognizable solving situations. Comparing descriptions of the same
+puzzle helps explain which features come from the puzzle and which depend on
+our coordinates, labels, or conventions.
 
-For human solving, formulas must connect recognizable patterns with manageable
-move sequences. For computer solving, algorithms pursue explicit optimization
-goals, such as the fewest moves under a chosen move metric. Understanding why
-a method works, what makes it usable by a person, and how a computer can seek
-an optimal solution gives the general theory a concrete purpose.
+Group theory connects these topics: actions describe moves, orbits and
+invariants constrain what is reachable, and subgroups help organize a solve.
+The inquiry also encounters geometry, combinatorics, graph theory, and
+computational complexity. These areas enter through the questions raised by
+the puzzles and their solutions.
+
+Human solving and computer solving give this inquiry two closely related
+purposes. For a person, a useful formula connects a recognizable pattern with
+a manageable permutation sequence. Understanding conjugation, commutators,
+and what a sequence preserves can explain how formulas work and how methods
+combine them into a complete solve.
+
+For a computer, the aim is to find solutions according to explicit
+optimization goals, such as the fewest moves under a chosen move metric.
+Finding a solution, guaranteeing that a method can solve every state in its
+domain, and establishing optimality are different mathematical questions.
+Studying both human methods and computer algorithms connects structural
+understanding with practical choices about how to solve.
 
 ## Approach
 
 FRAP shares the methodology of [FCAP](https://github.com/utensil/fcap), applied
 to a different mathematical subject and its applications. Scholarly sources,
 worked examples, and explicit calculations support a gradual passage from
-abstract structures to concrete models and executable procedures. Lean serves
-both as a language for the mathematics and as a means of implementing and
-verifying computations.
+abstract structures to concrete models and executable procedures. Different
+representations and methods are compared through the mathematics they express
+and the questions they help answer.
 
-Formalization also tests our understanding of the theory. Missing hypotheses,
-ambiguous conventions, and useful reformulations found in Lean should feed
-back into the mathematical notes. In the other direction, the notes explain
-the constructions and questions that give the formal work its purpose.
+Lean serves both as a language for the mathematics and as a means of
+implementing and verifying computations. Formalization is also a way to test
+and reshape our understanding of the theory. Missing hypotheses, ambiguous
+conventions, and useful reformulations found in Lean should feed back into the
+notes; the notes, in turn, explain the constructions and questions that give
+the formal work its purpose.
 
 Reference projects inform the inquiry through mathematical principles,
 observed behavior, and technical specifications, with inspiration attributed
@@ -62,11 +80,12 @@ of the familiar practice and the wider mathematics encountered along the way.
 ## Components
 
 - [Forest notes](https://github.com/utensil/forest) develop the mathematical
-  explanations, examples, and arguments.
+  explanations, examples, and arguments, connecting the general constructions
+  to concrete puzzles and methods.
 - Lean work will connect mathematical models, executable algorithms, and
-  proofs of their properties.
-- Solving and gameplay provide the concrete setting for human methods,
-  computer algorithms, and their mathematical interpretation.
+  proofs of their properties, with discoveries feeding back into the notes.
+- Solving and gameplay bring the mathematics into use through human formulas,
+  computer algorithms, and interactive exploration.
 
 The repository is currently an initial skeleton; it has no Lean implementation
 yet.
