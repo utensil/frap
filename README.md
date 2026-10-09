@@ -1,5 +1,8 @@
 # FRAP
 
+> [!WARNING]
+> Highly experimental, early-stage research. Everything here is provisional: expect frequent changes and unfinished proofs.
+
 ![FRAP banner: abstract polytopes, a layered cube, and a 3×3×3 cube in a checkerboard pattern](assets/frap-banner.png)
 
 FRAP stands for **Formalizing Rubik's Abstract Polytopes**.
@@ -105,10 +108,10 @@ encountered along the way.
 
 ## Components
 
-- The **FRAP mathematical notes**, a series in
-  [Forest](https://github.com/utensil/forest), will develop the explanations,
-  examples, and arguments connecting general Rubik abstract polytopes to
-  concrete cubes, solution methods, and gameplay.
+- [**Notes on Rubik's abstract polytopes**](https://utensil.github.io/forest/frap-0001/),
+  the FRAP series in Forest, develops the explanations, examples, and arguments
+  connecting general Rubik abstract polytopes to concrete cubes, solution
+  methods, and gameplay.
 - Lean work will connect mathematical models, executable algorithms, and
   proofs of their properties, with discoveries feeding back into the notes.
 - Solving and gameplay bring the mathematics into use through human formulas,
