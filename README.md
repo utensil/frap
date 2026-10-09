@@ -44,7 +44,7 @@ these transport constructions gives a concrete route into discrete holonomy;
 comparing shapes related by a cover asks which puzzle moves can lift or descend.
 
 Random move sequences bring probability and representation theory into the
-study: how scrambles lose memory of their starting state, and how functions on
+study: when and how scrambles lose memory of their starting state, and how functions on
 move groups can [guide a search for solutions](https://proceedings.mlr.press/v130/pan21a/pan21a.pdf).
 
 Human solving and computer solving give this inquiry two closely related
