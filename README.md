@@ -11,4 +11,4 @@ Mathematical notes are being prepared in
 
 This repository is an initial skeleton. It has no Lean implementation yet.
 
-Licensed under [Apache-2.0](LICENSE). See [attribution](NOTICE.md).
+Licensed under [Apache-2.0](LICENSE).
