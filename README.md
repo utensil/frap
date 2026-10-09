@@ -79,9 +79,10 @@ of the familiar practice and the wider mathematics encountered along the way.
 
 ## Components
 
-- [Forest notes](https://github.com/utensil/forest) develop the mathematical
-  explanations, examples, and arguments, connecting the general constructions
-  to concrete puzzles and methods.
+- The **FRAP mathematical notes**, a series in
+  [Forest](https://github.com/utensil/forest), will develop the explanations,
+  examples, and arguments connecting general Rubik abstract polytopes to
+  concrete cubes, solution methods, and gameplay.
 - Lean work will connect mathematical models, executable algorithms, and
   proofs of their properties, with discoveries feeding back into the notes.
 - Solving and gameplay bring the mathematics into use through human formulas,
