@@ -1,5 +1,7 @@
 # FRAP
 
+![FRAP banner: abstract polytopes, a layered cube, and a colorful 3×3×3 puzzle](assets/frap-banner.png)
+
 FRAP stands for **Formalizing Rubik's Abstract Polytopes**.
 
 Its goal is to connect the general mathematics of Rubik puzzles with the
