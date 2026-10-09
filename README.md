@@ -10,13 +10,13 @@ formalization in Lean, and executable algorithms.
 
 The question is how a general theory of Rubik puzzles can explain the concrete
 methods used to solve them. FRAP begins with Rubik's abstract polytopes,
-proceeds to N-by-N-by-N cubes, and then studies the 3-by-3-by-3 cube, its
+proceeds to N×N×N cubes, and then studies the 3×3×3 cube, its
 solution methods, and gameplay. Each refinement brings additional structure
 into view and gives the mathematics more concrete questions to answer.
 
 Abstract polytopes let us study incidence, symmetry, and moves across different
 shapes. Layered cubes introduce distinctions between kinds of pieces, their
-orientations, and the constraints preserved by turns. The 3-by-3-by-3 cube
+orientations, and the constraints preserved by turns. The 3×3×3 cube
 provides a rich setting for working out those ideas in detail and connecting
 them with recognizable solving situations. Comparing descriptions of the same
 puzzle helps explain which features come from the puzzle and which depend on
@@ -65,11 +65,11 @@ core ideas.
 
 ## Origins and guiding intuition
 
-I began playing the 3-by-3-by-3 cube decades ago, later learning to solve the
-2-by-2-by-2 and 4-by-4-by-4. I also own a 5-by-5-by-5, but have yet to take it
+I began playing the 3×3×3 cube decades ago, later learning to solve the
+2×2×2 and 4×4×4. I also own a 5×5×5, but have yet to take it
 up. The initial questions were practical: how to play, how different solution
 methods work, and how algorithms solve scrambled cubes. Those questions led
-to the group theory behind the puzzles, mathematics for general N-by-N-by-N
+to the group theory behind the puzzles, mathematics for general N×N×N
 cubes, and eventually Giovanni Luca Marchetti's
 [*Rubik's Abstract Polytopes*](https://arxiv.org/abs/2502.13518).
 
